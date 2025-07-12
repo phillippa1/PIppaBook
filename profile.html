@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile | PippaBook</title>
+	
+</head>
+
+<style type="text/css">
+	#top_bar{
+
+		height: 50px;
+		background-color: plum;
+		color: black;
+	}
+
+	#search_box{
+		width: 400px;
+		height: 20px;
+		border-radius: 5px;
+		border: none;
+		padding: 4px;
+		font-size: 14px;
+		background-image: url(search.png);
+		background-repeat: no-repeat;
+		background-size: 20px 20px; 
+		background-position: right;
+
+	}
+	
+
+	#content{
+
+	}
+
+	#profile_pic{
+		width: 150px;
+		margin-top: -600px;
+		border-radius: 50%;
+		border: solid 2px white;
+
+	}
+
+	#menu_buttons{
+		width: 100px;
+		display: inline-block;
+		margin: 2px;
+
+
+	}
+	
+</style>
+
+	<body style="font-family: tahoma; background-color: #d0d8e4;">
+		<div id="top_bar">
+
+			<!--top bar-->
+			<div style="width: 600px; margin: auto; font-size: 30px;">
+
+				PippaBook &nbsp &nbsp <input type="text" id="search_box" placeholder="Search for people">
+			</div>
+			<img src="Profile.jpg" style="width: 40px; height: 40px; position: absolute; top: 15px; right: 10px; border-radius: 50%;">
+			<br>
+			<!--cover area-->
+			<div id="content" style="width: 800px; margin: auto; min-height: 400px;">
+				<div style="background-color: white; text-align: center; color: #405d9b;">
+
+					<img src="new-background.jpg" style="width: 100%;">
+					<img id="profile_pic" src="Profile.jpg">
+					<br>
+					<div style="font-size: 20px"> Mum Hamilton </div>
+					<br>
+
+					<div  id="menu_buttons"> Timeline </div>
+					<div id="menu_buttons"> About </div>
+					<div id="menu_buttons"> Friends </div>
+					<div id="menu_buttons"> Photos </div>
+					<div id="menu_buttons"> Settings</div>
+
+				</div>
+
+				<div style="display: flex">
+					<div style="min-height: 400px; flex: 1;"></div>
+					<div style="min-height: 400px; flex: 2.5;"></div>
+				</div>
+
+			</div>
+		</div>
+
+	</body>
+</html>
