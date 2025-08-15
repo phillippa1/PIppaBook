@@ -5,3 +5,5 @@ Making small adjustments on the way.  First adjustment- my image sizes are diffe
 First set of videos are simple HTML and CSS, coding this from scratch was really useful in improving my basic skills.
 
 Used php to handle databases.
+
+Tutorial in php after the html.

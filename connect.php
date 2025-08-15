@@ -1,18 +1,31 @@
 <?php 
 
-//part 21- Function
+//part 22- Classes
 
-//what is a valid function
-function say_something($name, $second_name)
+//Project in segments
+//blueprint
+//where to declare varaibles
+class myclass
 {
-    echo  "Hi, " . $name;
+    public $name = "someone";
+    function one()
+    {
+        //referencing variables
+        echo $this->name;
+    }
+
+    function two()
+    {
+        echo " two <br>";
+    }
 }
 
-// function show_something()
-// {
-//     echo " this is a function, show something";
-// }
+$a = new myclass();
 
-//order of functions
-say_something("Pippa", "Hamilton");
-//show_something();
+//now you can access the functions inside the class
+// $a->one();
+// $a->two();
+echo $a->name;
+
+
+//$b = new myclass();
