@@ -1,21 +1,18 @@
 <?php 
 
-//part 20- Conditions
+//part 21- Function
 
-$number = 20;
-
-//a condition only runs once
-if($number > 20)
+//what is a valid function
+function say_something($name, $second_name)
 {
-    echo "One";
-
-}elseif($number == 20)
-{
-    echo "Two";
-}else
-{
-    echo "Three";
+    echo  "Hi, " . $name;
 }
 
-//this will always run
-echo " end";
+// function show_something()
+// {
+//     echo " this is a function, show something";
+// }
+
+//order of functions
+say_something("Pippa", "Hamilton");
+//show_something();
