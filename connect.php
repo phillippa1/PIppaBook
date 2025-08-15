@@ -1,11 +1,21 @@
 <?php 
 
-//varaibles- went over numbers (no need for more) and words (in inverted commas)
-//naming of variables
-//went over working with numbers
-//and the warnings if you try to compute something forbidden
-$number = 2;
-$number2 = 8;
+//part 18- arrays
 
-//means show me- tells php this is a word
-echo  $number + $number2;
+//this is an array and in the first location this is in it
+//went over array errors
+$a[0] = 1;
+$a[1] = "eathorne";
+$a[2] = "june";
+//replacing what is in an array
+//$a[2] = "june2";
+//adding to an array on the end
+$a[] = "june3";
+
+
+//use a html tag to see the php better
+echo "<pre>";
+print_r($a);
+echo "</pre>";
+
+echo $a[2]; 
