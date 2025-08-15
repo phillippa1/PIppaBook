@@ -1,11 +1,21 @@
 <?php 
 
-//part 19- loops- while loops
+//part 20- Conditions
 
-$number = 0;
+$number = 20;
 
-while($number < 20)
+//a condition only runs once
+if($number > 20)
 {
-    $number = $number + 1;
-    echo $number . "<br>";
+    echo "One";
+
+}elseif($number == 20)
+{
+    echo "Two";
+}else
+{
+    echo "Three";
 }
+
+//this will always run
+echo " end";
